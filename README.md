@@ -3,8 +3,8 @@ A encapsulation of rsync command for routine backup.
 
 # Installtion:
 
-1. Run `git clone https://github.com/d0u9/tri-sync`.
-2. Create a configuration file at `~/.tri_sync.json` or at
+- Run `git clone https://github.com/d0u9/tri-sync`.
+- Create a configuration file at `~/.tri_sync.json` or at
    `~/.dot/.tri_config.json`. Fill it with the following contents:
 
 ```
@@ -28,7 +28,7 @@ A encapsulation of rsync command for routine backup.
 }
 ```
 
-3. Replace the `server`, `name`, `local`, `rmote` fields as yours.
+- Replace the `server`, `name`, `local`, `rmote` fields as yours.
 
 # Usage:
 
