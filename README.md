@@ -4,8 +4,8 @@ A encapsulation of rsync command for routine backup.
 # Installtion:
 
 1. Run `git clone https://github.com/d0u9/tri-sync`.
-2. Create a config file - `.private.json` - in your home directory, and add
-it the following content:
+2. Create a configuration file at `~/.tri_sync.json` or at
+   `~/.dot/.tri_config.json`. Fill it with the following contents:
 
 ```
 {
@@ -16,7 +16,7 @@ it the following content:
         "name": "Your username",
         "local": "The fold you want to sync",
         "rmote": "The remote sync path on the remote host"
-		}
+      },
       "profile2": {
         "server": "XXX.XXX.XXX.XXX",
         "name": "Your username",
