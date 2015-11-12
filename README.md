@@ -10,7 +10,7 @@ A encapsulation of rsync command for routine backup.
 ```
 {
   "Applications": {
-    "rsync": {
+    "tri-sync": {
       "profile1": {
         "server": "XXX.XXX.XXX.XXX",
         "name": "Your username",

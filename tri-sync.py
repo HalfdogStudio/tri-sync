@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
 
     with open(config_file) as tmp_file:
-        tmp = json.load(tmp_file)["Applications"]["rsync"]
+        tmp = json.load(tmp_file)["Applications"]["tri-sync"]
         if sys.argv[1] in tmp:
             config = tmp[sys.argv[1]]
         else:
